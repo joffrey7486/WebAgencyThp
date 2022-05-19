@@ -1,0 +1,23 @@
+.btn-toggle{
+    position: fixed;
+    top: 7%;
+    right: 4%;
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) { 
+    .btn-toggle{
+        top: 6%;
+        right: 0;
+        width: 100px;
+        height: 30px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background-color: #00bcd4;
+        }
+    }
+}
